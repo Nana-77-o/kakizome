@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _lineRenderers = new GameObject[10];
+        _lineRenderers = new GameObject[16];
         _canvasRect = _canvas.GetComponent<RectTransform>();
         _index = 0;
     }
